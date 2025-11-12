@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #ffbb00;
+  color: white;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #ffec41, #ffffff);
+  color: white;
+  padding: 160px 40px;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.hero-buttons .btn {
+  margin: 10px;
+}
+
+/* FEATURES */
+.features {
+  padding: 60px 20px;
+  background: white;
+}
+
+.features h3 {
+  color: #4a148c;
+  margin-bottom: 40px;
+  font-size: 1.8rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card {
+  background-color: #ff0000;
+  padding: 25px;
+  width: 250px;
+  height: 380px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  /* Transiciones suaves */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.07); /* Hace crecer la tarjeta */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  z-index: 10; /* Pone la tarjeta por encima de las demás */
+}
+
+.cards:hover .card:not(:hover) {
+  filter: brightness(0.5);
+}
+
+.cards .card:hover {
+  filter: brightness(1); /* pero la tarjeta activa se mantiene normal */
+}
+
+.card h4 {
+  color: #00ffea;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.card-img1 {
+  background-image: url('https://tu-imagen-aqui.com/imagen.jpg'); /* URL o ruta local */
+  background-size: cover;       /* La imagen cubre todo el cuadro */
+  background-position: center;  /* Centrada */
+  background-repeat: no-repeat; /* Sin repetirse */
+  color: white; /* Para que el texto sea legible si el fondo es oscuro */
+}
+/* BUTTONS */
+.btn {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #e91e63;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid white;
+}
+
+.btn.small {
+  font-size: 0.8rem;
+  padding: 6px 14px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #ffbb00;
+  padding: 30px;
+  color: white;
+}
