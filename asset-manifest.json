@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/MyMagicOdyssey/static/css/main.454817e8.css",
-    "main.js": "/MyMagicOdyssey/static/js/main.ae9364ec.js",
+    "main.css": "/MyMagicOdyssey/static/css/main.597740ba.css",
+    "main.js": "/MyMagicOdyssey/static/js/main.a6036709.js",
     "static/js/453.621a6d2c.chunk.js": "/MyMagicOdyssey/static/js/453.621a6d2c.chunk.js",
+    "static/media/2.jpg": "/MyMagicOdyssey/static/media/2.3a46fae658deed850ae4.jpg",
+    "static/media/3.jpg": "/MyMagicOdyssey/static/media/3.bc1051e1b6e55c04d735.jpg",
+    "static/media/1.jpg": "/MyMagicOdyssey/static/media/1.4764239b1d9fa73489ee.jpg",
     "static/media/lv2.jpg": "/MyMagicOdyssey/static/media/lv2.cf7a21ccc029256dcbb2.jpg",
     "static/media/lv1.jpg": "/MyMagicOdyssey/static/media/lv1.0ecc14cdca764b61c8be.jpg",
     "static/media/lv3.jpg": "/MyMagicOdyssey/static/media/lv3.a66f7af65059b03252bf.jpg",
+    "static/media/4.jpg": "/MyMagicOdyssey/static/media/4.9010d748fc2b035f28f1.jpg",
     "index.html": "/MyMagicOdyssey/index.html",
-    "main.454817e8.css.map": "/MyMagicOdyssey/static/css/main.454817e8.css.map",
-    "main.ae9364ec.js.map": "/MyMagicOdyssey/static/js/main.ae9364ec.js.map",
+    "main.597740ba.css.map": "/MyMagicOdyssey/static/css/main.597740ba.css.map",
+    "main.a6036709.js.map": "/MyMagicOdyssey/static/js/main.a6036709.js.map",
     "453.621a6d2c.chunk.js.map": "/MyMagicOdyssey/static/js/453.621a6d2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.454817e8.css",
-    "static/js/main.ae9364ec.js"
+    "static/css/main.597740ba.css",
+    "static/js/main.a6036709.js"
   ]
 }
