@@ -37,30 +37,109 @@ body {
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, #ffec41, #ffffff);
+  background-image: url('./assets/1.jpg');
+  background-size: cover;        /* la imagen cubre todo el área */
+  background-position: center;   /* centrada */
+  background-repeat: no-repeat;  /* no se repite */
   color: white;
   padding: 160px 40px;
+  position: relative;
 }
 
-.hero h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
+/* HERO CONTENT */
+.hero-content {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  height: 250px;
+  position: relative;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+/* --- BLUE BOX --- */
+.blue-box {
+  width: 400px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  position: relative;  /* 🔹 permite colocar el texto dentro */
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100px);
+}
+/* 🔹 El texto ahora queda encima de las imágenes */
+.blue-title {
+  position: absolute;
+  top: -150px;
+  right: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 800;
+  transform: rotate(20deg);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+  z-index: 3; /* asegura que esté por encima de las imágenes */
 }
 
-.hero p {
-  max-width: 600px;
-  margin: 0 auto 30px;
-  line-height: 1.6;
+/* --- EFECTO DE DESVANECIMIENTO --- */
+.fade-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
-.hero-buttons .btn {
-  margin: 10px;
+.fade-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 3s ease-in-out; /* 🔹 transición más lenta */
+}
+
+.fade-image img.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* --- GREEN BOX --- */
+.green-box {
+  width: 120px;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.452);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+
+  transform: translateY(-100px);
+}
+
+.green-text {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.green-btn {
+  background-color: #c85000;
+  padding: 5px 12px;
+  font-size: 0.7rem;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.green-btn:hover {
+  background-color: #009624;
 }
 
 /* FEATURES */
@@ -89,21 +168,18 @@ body {
   height: 380px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-
-  /* Transiciones suaves */
   transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
 }
 
 .card:hover {
-  transform: scale(1.07); /* Hace crecer la tarjeta */
+  transform: scale(1.07);
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-  z-index: 10; /* Pone la tarjeta por encima de las demás */
+  z-index: 10;
 }
 
 .cards:hover .card:not(:hover) {
@@ -111,7 +187,7 @@ body {
 }
 
 .cards .card:hover {
-  filter: brightness(1); /* pero la tarjeta activa se mantiene normal */
+  filter: brightness(1);
 }
 
 .card h4 {
@@ -125,12 +201,12 @@ body {
 }
 
 .card-img1 {
-  background-image: url('https://tu-imagen-aqui.com/imagen.jpg'); /* URL o ruta local */
-  background-size: cover;       /* La imagen cubre todo el cuadro */
-  background-position: center;  /* Centrada */
-  background-repeat: no-repeat; /* Sin repetirse */
-  color: white; /* Para que el texto sea legible si el fondo es oscuro */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
 }
+
 /* BUTTONS */
 .btn {
   background-color: #ff4081;

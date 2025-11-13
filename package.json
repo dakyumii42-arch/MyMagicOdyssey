@@ -2,7 +2,7 @@
   "name": "web00",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http/dakyumii42-arch/dakyumii42-arch.github.io",
+  "homepage":"http:/dakyumii42-arch.github.io/MyMagicOdyssey",
 
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
