@@ -42,8 +42,9 @@ body {
   background-position: center;   /* centrada */
   background-repeat: no-repeat;  /* no se repite */
   color: white;
-  padding: 160px 40px;
+  padding: 40px 40px;
   position: relative;
+  height: 500px; /* Cambia la altura del contenedor */
 }
 
 /* HERO CONTENT */
@@ -67,12 +68,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translateY(-100px);
+  transform: translateY(35px);
 }
 /* 🔹 El texto ahora queda encima de las imágenes */
 .blue-title {
   position: absolute;
-  top: -150px;
+  top: -20px;
   right: 15px;
   color: rgb(255, 255, 255);
   font-size: 2rem;
@@ -118,7 +119,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   padding: 10px;
 
-  transform: translateY(-100px);
+  transform: translateY(35px);
 }
 
 .green-text {
@@ -143,15 +144,30 @@ body {
 }
 
 /* FEATURES */
+.features1 {
+  padding: 0px 0px;
+  background: rgba(255, 255, 255, 0);
+  transform: translateY(-30px);
+}
+
 .features {
-  padding: 60px 20px;
+  padding: 0px 0px;
   background: white;
+
+  display: flex;
+  align-items: center; /* Alinea verticalmente */
+  gap: 20px; /* Espaciado entre los elementos */
+}
+
+.features .left-content {
+  flex-shrink: 0; /* Evita que se reduzca el tamaño del contenido adicional */
 }
 
 .features h3 {
   color: #4a148c;
   margin-bottom: 40px;
   font-size: 1.8rem;
+  
 }
 
 .cards {
@@ -161,51 +177,7 @@ body {
   gap: 25px;
 }
 
-.card {
-  background-color: #ff0000;
-  padding: 25px;
-  width: 250px;
-  height: 380px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
-}
 
-.card:hover {
-  transform: scale(1.07);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-  z-index: 10;
-}
-
-.cards:hover .card:not(:hover) {
-  filter: brightness(0.5);
-}
-
-.cards .card:hover {
-  filter: brightness(1);
-}
-
-.card h4 {
-  color: #00ffea;
-  margin-bottom: 10px;
-}
-
-.card p {
-  font-size: 0.9rem;
-  margin-bottom: 20px;
-}
-
-.card-img1 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-}
 
 /* BUTTONS */
 .btn {
@@ -239,3 +211,125 @@ footer {
   padding: 30px;
   color: white;
 }
+
+.lightblue-box {
+  width: 550px;
+  height: 200px;
+  background-color: #00e5ff00; /* celeste brillante */
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+  opacity: 1;
+  transition: transform 0.2s ease, opacity 0.3s ease;
+}
+
+.lightblue-box:hover {
+  transform: scale(1.07);
+  opacity: 1;
+}
+
+.lightblue-title {
+  color: #00334d;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.lightblue-text {
+  color: #002633;
+  font-size: 1rem;
+  text-align: center;
+  width: 90%;
+}
+
+footer {
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  align-items: center; /* Centra los botones verticalmente */
+  gap: 20px; /* Espaciado entre los botones */
+}
+
+footer .icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+footer .icon-button img {
+  width: 40px; /* Ajusta el tamaño del icono */
+  height: 40px;
+  object-fit: cover;
+}
+
+footer .icon-button:hover {
+  transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+
+/* NEWS (CUADRO VERDE) */
+.news-section {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px 40px;
+}
+
+.news-box {
+  width: 280px;
+  height: 420px; /* 🔹 tamaño fijo */
+  background-color: #00ff4400;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+  text-align: left;
+
+  overflow-y: auto;  /* 🔹 permite scroll vertical */
+  scrollbar-width: thin; /* Firefox */
+}
+
+.news-box h2 {
+  margin: 0 0 35px 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+ 
+  transform: translate(14px, -6px)
+  
+}
+
+.news-box ul {
+  list-style: none;
+  padding: 0.5;
+  transform: translateX(-7px);
+}
+
+.news-box li {
+  font-size: 1rem;
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+/* Barra de scroll moderna */
+.news-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-box::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.news-box::-webkit-scrollbar-thumb {
+  background: #007a19;
+  border-radius: 10px;
+}
+
+.news-box::-webkit-scrollbar-thumb:hover {
+  background: #005f14;
+}
+
