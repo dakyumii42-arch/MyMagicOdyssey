@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyMagicOdyssey/static/css/main.99419cbe.css",
-    "main.js": "/MyMagicOdyssey/static/js/main.37bf792f.js",
+    "main.css": "/MyMagicOdyssey/static/css/main.a5652910.css",
+    "main.js": "/MyMagicOdyssey/static/js/main.e64e102f.js",
     "static/js/453.621a6d2c.chunk.js": "/MyMagicOdyssey/static/js/453.621a6d2c.chunk.js",
     "static/media/teamp.png": "/MyMagicOdyssey/static/media/teamp.25eb99282efcf3434445.png",
     "static/media/2.jpg": "/MyMagicOdyssey/static/media/2.3a46fae658deed850ae4.jpg",
@@ -9,19 +9,23 @@
     "static/media/1.jpg": "/MyMagicOdyssey/static/media/1.4764239b1d9fa73489ee.jpg",
     "static/media/pergamino.png": "/MyMagicOdyssey/static/media/pergamino.191564d0d21725af31c2.png",
     "static/media/X_icon.png": "/MyMagicOdyssey/static/media/X_icon.c1120df992d0d363d174.png",
+    "static/media/X_icon2.png": "/MyMagicOdyssey/static/media/X_icon2.37b55f0fc744dbbf22f1.png",
     "static/media/lv2.jpg": "/MyMagicOdyssey/static/media/lv2.cf7a21ccc029256dcbb2.jpg",
     "static/media/lv1.jpg": "/MyMagicOdyssey/static/media/lv1.0ecc14cdca764b61c8be.jpg",
     "static/media/lv3.jpg": "/MyMagicOdyssey/static/media/lv3.a66f7af65059b03252bf.jpg",
     "static/media/4.jpg": "/MyMagicOdyssey/static/media/4.9010d748fc2b035f28f1.jpg",
+    "static/media/discordicon2.png": "/MyMagicOdyssey/static/media/discordicon2.87103b7fb8f04ea4d3ef.png",
     "static/media/discordIcon.png": "/MyMagicOdyssey/static/media/discordIcon.751cb1d24559c25bb85e.png",
+    "static/media/ficon.png": "/MyMagicOdyssey/static/media/ficon.b1de0aedbbfc14f2c56f.png",
     "static/media/fcicon.png": "/MyMagicOdyssey/static/media/fcicon.c6eb92b378e490583d86.png",
+    "static/media/pp.png": "/MyMagicOdyssey/static/media/pp.515946c8e93569e78bc6.png",
     "index.html": "/MyMagicOdyssey/index.html",
-    "main.99419cbe.css.map": "/MyMagicOdyssey/static/css/main.99419cbe.css.map",
-    "main.37bf792f.js.map": "/MyMagicOdyssey/static/js/main.37bf792f.js.map",
+    "main.a5652910.css.map": "/MyMagicOdyssey/static/css/main.a5652910.css.map",
+    "main.e64e102f.js.map": "/MyMagicOdyssey/static/js/main.e64e102f.js.map",
     "453.621a6d2c.chunk.js.map": "/MyMagicOdyssey/static/js/453.621a6d2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99419cbe.css",
-    "static/js/main.37bf792f.js"
+    "static/css/main.a5652910.css",
+    "static/js/main.e64e102f.js"
   ]
 }
