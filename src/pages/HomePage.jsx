@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 import '../App.css';
 import imagen1 from '../assets/lv1.webp';
 import imagen2 from '../assets/lv2.webp';
@@ -235,9 +237,21 @@ useEffect(() => {
 
         </div>
 
-        <div className="lightblue-box">
-          <img src={teamp} alt="Lightblue Box Content" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '0px' }} />
-        </div>
+        <Link to="/MyMagicOdyssey/lore" style={{ textDecoration: "none" }}>
+          <div className="lightblue-box" style={{ cursor: "pointer" }}>
+            <img
+              src={teamp}
+              alt="Lightblue Box Content"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                borderRadius: "0px",
+              }}
+            />
+          </div>
+        </Link>
+
       </section>
       
       
