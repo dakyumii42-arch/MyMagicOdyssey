@@ -1,37 +1,38 @@
 {
   "files": {
-    "main.css": "/MyMagicOdyssey/static/css/main.7a57bebb.css",
-    "main.js": "/MyMagicOdyssey/static/js/main.789fc610.js",
+    "main.css": "/MyMagicOdyssey/static/css/main.f1eed7a4.css",
+    "main.js": "/MyMagicOdyssey/static/js/main.afcc4817.js",
     "static/media/teamp.png": "/MyMagicOdyssey/static/media/teamp.146b0a169faf64a683ad.png",
     "static/media/2.webp": "/MyMagicOdyssey/static/media/2.64190f1544e78305a520.webp",
     "static/media/1.webp": "/MyMagicOdyssey/static/media/1.4429ee3d398664961018.webp",
     "static/media/3.webp": "/MyMagicOdyssey/static/media/3.0ce57b9bc889bb99b151.webp",
     "static/media/pergamino.png": "/MyMagicOdyssey/static/media/pergamino.191564d0d21725af31c2.png",
+    "static/media/titulo.png": "/MyMagicOdyssey/static/media/titulo.d1bbefd627736155decc.png",
     "static/media/X_icon.png": "/MyMagicOdyssey/static/media/X_icon.c1120df992d0d363d174.png",
     "static/media/X_icon2.png": "/MyMagicOdyssey/static/media/X_icon2.37b55f0fc744dbbf22f1.png",
     "static/media/dragolore.png": "/MyMagicOdyssey/static/media/dragolore.1bc35a55868cfcfb2154.png",
     "static/media/lv2.webp": "/MyMagicOdyssey/static/media/lv2.ac019e8d2a62b4ebdecd.webp",
     "static/media/pergamino.webp": "/MyMagicOdyssey/static/media/pergamino.005a7cbe79b96f2a9840.webp",
     "static/media/1.jpg": "/MyMagicOdyssey/static/media/1.4764239b1d9fa73489ee.jpg",
+    "static/media/loretop.webp": "/MyMagicOdyssey/static/media/loretop.da9420e1f6154566b8d9.webp",
     "static/media/lv1.webp": "/MyMagicOdyssey/static/media/lv1.3af59909071f496a2405.webp",
-    "static/media/lorew3.png": "/MyMagicOdyssey/static/media/lorew3.79424a6d72f9b393262e.png",
-    "static/media/lorew1.png": "/MyMagicOdyssey/static/media/lorew1.ed0c46e5a12b83d788eb.png",
-    "static/media/loretop.webp": "/MyMagicOdyssey/static/media/loretop.250f7a5c0149871ad745.webp",
     "static/media/lv3.webp": "/MyMagicOdyssey/static/media/lv3.e90ec4548eb5530f9e15.webp",
     "static/media/tt.png": "/MyMagicOdyssey/static/media/tt.c99a04b0c1eb1dad0e12.png",
+    "static/media/lorew3.png": "/MyMagicOdyssey/static/media/lorew3.9fe1717be00247f85bd6.png",
     "static/media/4.webp": "/MyMagicOdyssey/static/media/4.31dbed16911abff5c488.webp",
     "static/media/discordicon2.png": "/MyMagicOdyssey/static/media/discordicon2.87103b7fb8f04ea4d3ef.png",
     "static/media/discordIcon.png": "/MyMagicOdyssey/static/media/discordIcon.751cb1d24559c25bb85e.png",
-    "static/media/lorew4.png": "/MyMagicOdyssey/static/media/lorew4.9601e623cb6669c4b604.png",
+    "static/media/lorew4.png": "/MyMagicOdyssey/static/media/lorew4.316e589d347f7ad450d1.png",
     "static/media/ficon.png": "/MyMagicOdyssey/static/media/ficon.b1de0aedbbfc14f2c56f.png",
     "static/media/fcicon.png": "/MyMagicOdyssey/static/media/fcicon.c6eb92b378e490583d86.png",
+    "static/media/lorew1.png": "/MyMagicOdyssey/static/media/lorew1.0ad65611ef7221893c11.png",
     "static/media/pp.png": "/MyMagicOdyssey/static/media/pp.515946c8e93569e78bc6.png",
     "index.html": "/MyMagicOdyssey/index.html",
-    "main.7a57bebb.css.map": "/MyMagicOdyssey/static/css/main.7a57bebb.css.map",
-    "main.789fc610.js.map": "/MyMagicOdyssey/static/js/main.789fc610.js.map"
+    "main.f1eed7a4.css.map": "/MyMagicOdyssey/static/css/main.f1eed7a4.css.map",
+    "main.afcc4817.js.map": "/MyMagicOdyssey/static/js/main.afcc4817.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a57bebb.css",
-    "static/js/main.789fc610.js"
+    "static/css/main.f1eed7a4.css",
+    "static/js/main.afcc4817.js"
   ]
 }
