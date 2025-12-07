@@ -62,11 +62,17 @@ useEffect(() => {
           )}
           
           {!isMobile && (
-            <div className="liightblue-box"></div>
+            <div className="liightblue-box" style={{transform: "translateX(-8%)", width: "35%"}}></div>)}
+          {isMobile && (
+            <div className="liightblue-box" style={{width: "100%"}}></div>)}
+
+          {!isMobile && ( 
+            <h2 className="blue-titlelore" style={{  top: "-4%"}}>WINNERS!</h2>
+          )}
+          {isMobile && (
+            <h2 className="blue-titlelore" style={{  top: "26%", transform: "rotate(15deg)"}}>WINNERS!</h2>
           )}
           
-
-          <h2 className="blue-title">WINNERS!</h2>
           <div className="blue-box">
             
             <div className="fade-image">

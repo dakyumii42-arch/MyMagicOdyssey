@@ -38,7 +38,7 @@ body {
 
 /* --- BLUE BOX --- */
 .blue-box {
-  width: 340px;
+  width: 20%;
   height: 250px;
   background-color: rgb(255, 255, 255);
   position: relative;  /* 🔹 permite colocar el texto dentro */
@@ -56,14 +56,14 @@ body {
   transform: translateY(0px) scale(1.09);
 }
 /* 🔹 El texto ahora queda encima de las imágenes */
-.blue-title {
+.blue-titlelore {
   position: absolute;
-  top: -20px;
+
   right: 15px;
   color: rgb(255, 255, 255);
   font-size: 2rem;
   font-weight: 800;
-  transform: rotate(20deg);
+ 
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
   z-index: 3; /* asegura que esté por encima de las imágenes */
 }
@@ -142,8 +142,10 @@ body {
 
   .herolore-content {
     flex-direction: column;
-    height: auto;
+    align-items: center !important;
     justify-content: center;
+    height: auto;
+    
     gap: 15px;
   }
 
@@ -175,9 +177,11 @@ body {
 
 
 .liightblue-box {
-  width: 35%;
+  
   height: 200px;
-  background-color: #00e5ff; /* celeste brillante */
+  background-color: #00e5ff00; /* celeste brillante */
+  background-image: url("../assets/titulo.png"); /* 🔹 RUTA A LA IMAGEN */
+  background-size: 100% 100%;
   border-radius: 10px;
 
   margin-left: auto;
@@ -187,7 +191,7 @@ body {
   align-items: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
   opacity: 1;
-  transform: translateX(-8%);
+  
 }
 
 
@@ -289,7 +293,7 @@ h2.lore-mundo {
   color: rgb(0, 0, 0);
 }
 h2.lore-mundo {
-  font-weight: 10%;
+  font-weight: 400;
   padding: 0% 20% ;
   font-size: 0.6rem;
   color: rgb(0, 0, 0);
