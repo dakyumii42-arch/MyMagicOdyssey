@@ -1,6 +1,6 @@
-import { Routes, Route } from "react-router-dom"; 
-import HomePage from "./pages/HomePage";
-import Lore from "./pages/lore";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from './pages/HomePage';
+import Lore from './pages/lore';
 /* npm run deploy
 
 git status
@@ -9,13 +9,14 @@ git commit -m "situación actual"
 git push -u origin master
 cls
 */
-
 function App() {
   return (
-    <Routes>
-      <Route path="/MyMagicOdyssey" element={<HomePage />} />
-      <Route path="/MyMagicOdyssey/lore" element={<Lore />} />
-    </Routes>
+    <BrowserRouter basename="/MyMagicOdyssey">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/lore" element={<Lore />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
