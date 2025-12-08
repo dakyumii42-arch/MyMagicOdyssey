@@ -14,7 +14,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/lore" element={<Lore />} />
+      <Route path="/MyMagicOdyssey/lore" element={<Lore />} />
     </Routes>
   );
 }
