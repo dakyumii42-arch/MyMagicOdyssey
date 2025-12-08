@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyMagicOdyssey/static/css/main.f1eed7a4.css",
-    "main.js": "/MyMagicOdyssey/static/js/main.ca6232db.js",
+    "main.js": "/MyMagicOdyssey/static/js/main.cf309d42.js",
     "static/media/teamp.png": "/MyMagicOdyssey/static/media/teamp.146b0a169faf64a683ad.png",
     "static/media/2.webp": "/MyMagicOdyssey/static/media/2.64190f1544e78305a520.webp",
     "static/media/1.webp": "/MyMagicOdyssey/static/media/1.4429ee3d398664961018.webp",
@@ -29,10 +29,10 @@
     "static/media/pp.png": "/MyMagicOdyssey/static/media/pp.515946c8e93569e78bc6.png",
     "index.html": "/MyMagicOdyssey/index.html",
     "main.f1eed7a4.css.map": "/MyMagicOdyssey/static/css/main.f1eed7a4.css.map",
-    "main.ca6232db.js.map": "/MyMagicOdyssey/static/js/main.ca6232db.js.map"
+    "main.cf309d42.js.map": "/MyMagicOdyssey/static/js/main.cf309d42.js.map"
   },
   "entrypoints": [
     "static/css/main.f1eed7a4.css",
-    "static/js/main.ca6232db.js"
+    "static/js/main.cf309d42.js"
   ]
 }
